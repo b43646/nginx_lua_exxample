@@ -1,0 +1,90 @@
+2019/04/13 22:22:51 [error] 116934#116934: *1 lua entry thread aborted: runtime error: /opt/lua/test7.lua:5: attempt to index global 'curl' (a nil value)
+stack traceback:
+coroutine 0:
+	/opt/lua/test7.lua: in function </opt/lua/test7.lua:1>, client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 22:23:50 [notice] 117082#117082: signal process started
+2019/04/13 22:23:56 [error] 117083#117083: *2 lua entry thread aborted: runtime error: /opt/lua/test7.lua:5: module 'lcurl' not found:
+	no field package.preload['lcurl']
+	no file '/usr/local/openresty/site/lualib/lcurl.ljbc'
+	no file '/usr/local/openresty/site/lualib/lcurl/init.ljbc'
+	no file '/usr/local/openresty/lualib/lcurl.ljbc'
+	no file '/usr/local/openresty/lualib/lcurl/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/lcurl.lua'
+	no file '/usr/local/openresty/site/lualib/lcurl/init.lua'
+	no file '/usr/local/openresty/lualib/lcurl.lua'
+	no file '/usr/local/openresty/lualib/lcurl/init.lua'
+	no file './lcurl.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/lcurl.lua'
+	no file '/usr/local/share/lua/5.1/lcurl.lua'
+	no file '/usr/local/share/lua/5.1/lcurl/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/lcurl.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/lcurl/init.lua'
+	no file '/usr/local/openresty/site/lualib/lcurl.so'
+	no file '/usr/local/openresty/lualib/lcurl.so'
+	no file './lcurl.so'
+	no file '/usr/local/lib/lua/5.1/lcurl.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/lcurl.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/opt/lua/test7.lua:5: in function </opt/lua/test7.lua:1>, client: 127.0.0.1, server: , request: "GET /lua HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 22:23:58 [error] 117083#117083: *3 lua entry thread aborted: runtime error: /opt/lua/test7.lua:5: module 'lcurl' not found:
+	no field package.preload['lcurl']
+	no file '/usr/local/openresty/site/lualib/lcurl.ljbc'
+	no file '/usr/local/openresty/site/lualib/lcurl/init.ljbc'
+	no file '/usr/local/openresty/lualib/lcurl.ljbc'
+	no file '/usr/local/openresty/lualib/lcurl/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/lcurl.lua'
+	no file '/usr/local/openresty/site/lualib/lcurl/init.lua'
+	no file '/usr/local/openresty/lualib/lcurl.lua'
+	no file '/usr/local/openresty/lualib/lcurl/init.lua'
+	no file './lcurl.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/lcurl.lua'
+	no file '/usr/local/share/lua/5.1/lcurl.lua'
+	no file '/usr/local/share/lua/5.1/lcurl/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/lcurl.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/lcurl/init.lua'
+	no file '/usr/local/openresty/site/lualib/lcurl.so'
+	no file '/usr/local/openresty/lualib/lcurl.so'
+	no file './lcurl.so'
+	no file '/usr/local/lib/lua/5.1/lcurl.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/lcurl.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	/opt/lua/test7.lua:5: in function </opt/lua/test7.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 22:25:58 [notice] 117260#117260: signal process started
+Hello World, get2019/04/13 22:26:47 [notice] 117317#117317: signal process started
+2019/04/13 22:37:07 [notice] 118012#118012: signal process started
+2019/04/13 22:37:11 [error] 118013#118013: *6 lua entry thread aborted: runtime error: [CURL-EASY][UNKNOWN_OPTION] An unknown option was passed in to libcurl (48)
+stack traceback:
+coroutine 0:
+	[C]: in function 'getinfo'
+	/opt/lua/test7.lua:18: in function </opt/lua/test7.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 22:37:13 [error] 118013#118013: *7 lua entry thread aborted: runtime error: [CURL-EASY][UNKNOWN_OPTION] An unknown option was passed in to libcurl (48)
+stack traceback:
+coroutine 0:
+	[C]: in function 'getinfo'
+	/opt/lua/test7.lua:18: in function </opt/lua/test7.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 22:37:14 [error] 118013#118013: *8 lua entry thread aborted: runtime error: [CURL-EASY][UNKNOWN_OPTION] An unknown option was passed in to libcurl (48)
+stack traceback:
+coroutine 0:
+	[C]: in function 'getinfo'
+	/opt/lua/test7.lua:18: in function </opt/lua/test7.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 22:37:14 [error] 118013#118013: *9 lua entry thread aborted: runtime error: [CURL-EASY][UNKNOWN_OPTION] An unknown option was passed in to libcurl (48)
+stack traceback:
+coroutine 0:
+	[C]: in function 'getinfo'
+	/opt/lua/test7.lua:18: in function </opt/lua/test7.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 22:38:03 [notice] 118076#118076: signal process started
+2019/04/13 22:38:51 [notice] 118133#118133: signal process started
+2019/04/13 22:38:54 [error] 118134#118134: *11 lua entry thread aborted: runtime error: [CURL-EASY][UNKNOWN_OPTION] An unknown option was passed in to libcurl (48)
+stack traceback:
+coroutine 0:
+	[C]: in function 'getinfo'
+	/opt/lua/test7.lua:18: in function </opt/lua/test7.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 22:43:56 [notice] 118470#118470: signal process started
+2019/04/13 22:44:49 [notice] 118532#118532: signal process started
+2019/04/13 22:50:55 [notice] 118973#118973: signal process started

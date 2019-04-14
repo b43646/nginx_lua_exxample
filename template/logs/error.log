@@ -1,0 +1,360 @@
+2019/04/13 23:22:33 [notice] 121431#121431: signal process started
+2019/04/13 23:22:33 [error] 121431#121431: open() "/opt/nginx_lua/template/logs/nginx.pid" failed (2: No such file or directory)
+2019/04/13 23:23:00 [error] 121458#121458: *1 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:23:00 [error] 121458#121458: *2 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:23:00 [error] 121458#121458: *3 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:23:00 [error] 121458#121458: *4 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:23:00 [error] 121458#121458: *5 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:23:00 [error] 121458#121458: *6 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:23:00 [error] 121458#121458: *7 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:23:00 [error] 121458#121458: *8 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:23:00 [error] 121458#121458: *9 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:23:00 [error] 121458#121458: *10 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:23:05 [error] 121458#121458: *11 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:23:05 [error] 121458#121458: *12 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:23:05 [error] 121458#121458: *13 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:23:05 [error] 121458#121458: *14 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:23:05 [error] 121458#121458: *15 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:23:05 [error] 121458#121458: *16 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:23:05 [error] 121458#121458: *17 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:23:05 [error] 121458#121458: *18 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:23:05 [error] 121458#121458: *19 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:23:05 [error] 121458#121458: *20 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:44 [notice] 121819#121819: signal process started
+2019/04/13 23:28:48 [error] 121820#121820: *21 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:48 [error] 121820#121820: *22 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:48 [error] 121820#121820: *23 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:48 [error] 121820#121820: *24 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:48 [error] 121820#121820: *25 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:48 [error] 121820#121820: *26 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:48 [error] 121820#121820: *27 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:48 [error] 121820#121820: *28 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:48 [error] 121820#121820: *29 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:48 [error] 121820#121820: *30 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:49 [error] 121820#121820: *31 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:49 [error] 121820#121820: *32 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:49 [error] 121820#121820: *33 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:49 [error] 121820#121820: *34 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:49 [error] 121820#121820: *35 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:49 [error] 121820#121820: *36 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:49 [error] 121820#121820: *37 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:49 [error] 121820#121820: *38 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:49 [error] 121820#121820: *39 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:49 [error] 121820#121820: *40 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *41 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *42 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *43 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *44 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *45 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *46 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *47 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *48 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *49 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *50 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *51 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *52 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *53 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *54 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *55 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *56 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *57 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *58 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *59 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *60 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *61 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *62 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *63 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *64 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *65 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *66 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *67 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *68 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *69 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:28:50 [error] 121820#121820: *70 lua entry thread aborted: runtime error: /opt/lua/test8.lua:9: bad argument #1 to 'print' (non-array table found)
+stack traceback:
+coroutine 0:
+	[C]: in function 'print'
+	/opt/lua/test8.lua:9: in function </opt/lua/test8.lua:1>, client: 127.0.0.1, server: , request: "GET /lua/ HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 23:29:04 [notice] 121846#121846: signal process started
+2019/04/13 23:30:41 [notice] 121992#121992: signal process started
+2019/04/13 23:32:28 [notice] 122121#122121: signal process started
+2019/04/13 23:34:43 [notice] 122262#122262: signal process started
+2019/04/13 23:36:26 [notice] 122366#122366: signal process started
+2019/04/13 23:37:08 [notice] 122413#122413: signal process started
+2019/04/13 23:38:29 [notice] 122536#122536: signal process started

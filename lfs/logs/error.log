@@ -1,0 +1,2 @@
+2019/04/13 20:23:29 [notice] 75294#75294: signal process started
+2019/04/13 20:23:29 [error] 75294#75294: open() "/opt/nginx_lua/lfs/logs/nginx.pid" failed (2: No such file or directory)

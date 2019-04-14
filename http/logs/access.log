@@ -1,0 +1,5 @@
+127.0.0.1 - - [13/Apr/2019:21:29:41 +0800] "GET / HTTP/1.1" 404 175 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0"
+127.0.0.1 - - [13/Apr/2019:21:29:42 +0800] "GET /favicon.ico HTTP/1.1" 404 175 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0"
+127.0.0.1 - - [13/Apr/2019:21:30:06 +0800] "GET /lua HTTP/1.1" 200 74 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0"
+127.0.0.1 - - [13/Apr/2019:21:30:30 +0800] "GET /lua HTTP/1.1" 200 35 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0"
+127.0.0.1 - - [13/Apr/2019:21:30:49 +0800] "GET /lua HTTP/1.1" 200 35 "-" "curl/7.29.0"

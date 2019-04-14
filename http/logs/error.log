@@ -1,0 +1,8 @@
+2019/04/13 21:28:50 [emerg] 80702#80702: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2019/04/13 21:28:50 [emerg] 80702#80702: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2019/04/13 21:28:50 [emerg] 80702#80702: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2019/04/13 21:28:50 [emerg] 80702#80702: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2019/04/13 21:28:50 [emerg] 80702#80702: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2019/04/13 21:29:41 [error] 80766#80766: *1 "/opt/nginx_lua/http/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 21:29:42 [error] 80766#80766: *1 open() "/opt/nginx_lua/http/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 21:30:26 [notice] 80878#80878: signal process started

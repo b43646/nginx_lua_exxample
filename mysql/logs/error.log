@@ -1,0 +1,143 @@
+2019/04/13 17:51:57 [emerg] 60509#60509: open() "/opt/nginx_lua/mysql/conf/mime.types" failed (2: No such file or directory) in /opt/nginx_lua/mysql/conf/nginx.conf:7
+2019/04/13 17:54:59 [error] 60724#60724: *1 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/04/13 17:54:59 [error] 60724#60724: *1 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2019/04/13 17:55:00 [error] 60724#60724: *2 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2019/04/13 17:55:00 [error] 60724#60724: *2 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2019/04/13 17:55:26 [notice] 60827#60827: signal process started
+2019/04/13 17:55:34 [error] 60828#60828: *3 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:34 [error] 60828#60828: *3 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:39 [error] 60828#60828: *4 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:39 [error] 60828#60828: *4 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:40 [error] 60828#60828: *5 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:40 [error] 60828#60828: *5 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:40 [error] 60828#60828: *6 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:40 [error] 60828#60828: *6 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:41 [error] 60828#60828: *7 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:41 [error] 60828#60828: *7 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:41 [error] 60828#60828: *8 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:41 [error] 60828#60828: *8 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:41 [error] 60828#60828: *9 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:41 [error] 60828#60828: *9 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:42 [error] 60828#60828: *10 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:42 [error] 60828#60828: *10 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:42 [error] 60828#60828: *11 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:42 [error] 60828#60828: *11 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:42 [error] 60828#60828: *12 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:42 [error] 60828#60828: *12 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:43 [error] 60828#60828: *13 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:43 [error] 60828#60828: *13 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:43 [error] 60828#60828: *14 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:43 [error] 60828#60828: *14 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:43 [error] 60828#60828: *15 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:43 [error] 60828#60828: *15 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:44 [error] 60828#60828: *16 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:44 [error] 60828#60828: *16 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:44 [error] 60828#60828: *17 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:44 [error] 60828#60828: *17 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:44 [error] 60828#60828: *18 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:44 [error] 60828#60828: *18 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:45 [error] 60828#60828: *19 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:45 [error] 60828#60828: *19 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:45 [error] 60828#60828: *20 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:55:45 [error] 60828#60828: *20 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:56:46 [notice] 60905#60905: signal process started
+2019/04/13 17:56:58 [error] 60906#60906: *21 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:56:58 [error] 60906#60906: *21 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:57:00 [error] 60906#60906: *22 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:57:00 [error] 60906#60906: *22 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:57:03 [error] 60906#60906: *23 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/mysql.lua:529: attempt to index local 'self' (a number value)
+stack traceback:
+coroutine 0:
+	/usr/local/openresty/lualib/resty/mysql.lua: in function 'set_timeout'
+	/opt/lua/test4.lua:10: in function </opt/lua/test4.lua:1>, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:57:03 [error] 60906#60906: *23 open() "/opt/nginx_lua/mysql/html/50x.html" failed (2: No such file or directory), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2019/04/13 17:59:47 [notice] 61115#61115: signal process started
+2019/04/13 18:01:43 [notice] 61321#61321: signal process started
